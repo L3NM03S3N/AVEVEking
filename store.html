@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STORE</title>
+  <link rel="icon" type="image/x-icon" href="file:///C:/Users/moesen.len/OneDrive%20-%20campus%20de%20helix%20Maasmechelen/Documenten/Nieuwe%20map/foto's/favicon%20logo.png">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+  
+  <header id="header1">
+    <div class="logo">
+      <img src="file:///C:/Users/moesen.len/OneDrive%20-%20campus%20de%20helix%20Maasmechelen/Documenten/Nieuwe%20map/foto's/logo.png" alt="Logo">
+    </div>
+            <form class="search">
+        <input type="text" placeholder="Search">
+        <span class="material-symbols-outlined">
+          search
+        </span>
+      </form>
+    <div class="header-right">
+
+      <div class="profile">
+        <div class="profile" id="profile">
+          <span class="material-symbols-outlined">
+            account_circle
+          </span>
+        </div>
+        <div class="basket" id="basket">
+          <span class="material-symbols-outlined">
+            shopping_cart
+          </span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <header id="header2">
+    <nav class="links">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="/store.html">Store</a></li>
+        <li><a href="/gift_ideas.html">Gift_Ideas</a></li>
+        <li><a href="/week_deals.html">Week_Deals</a></li>
+        <li><a href="/news.html">News</a></li>
+        <li><a href="/about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="sidebar">
+    <h2>Filter Options</h2>
+    <!-- Add your filter options here -->
+  </div>
+  
+  <div class="container">
+    <div class="product-container">
+    <div class="main-content">
+      <div class="section">
+        <h2>Lavender</h2>
+        <div class="product" onclick="showProductDetails('lavender')">
+          <img class= "product_image" src="file:///C:/Users/moesen.len/OneDrive%20-%20campus%20de%20helix%20Maasmechelen/Documenten/Nieuwe%20map/foto's/lavender_tea.jpg" alt="Lavender Product">
+          <p class="price">€6.00</p>
+        </div>
+
+        <div class="product" onclick="showProductDetails('lavender')">
+          <img class= "product_image" src="file:///C:/Users/moesen.len/OneDrive%20-%20campus%20de%20helix%20Maasmechelen/Documenten/Nieuwe%20map/foto's/lavender_tea.jpg" alt="Lavender Product">
+          <p class="price">€6.00</p>
+        </div>
+
+        <div class="product" onclick="showProductDetails('lavender')">
+          <img class= "product_image" src="file:///C:/Users/moesen.len/OneDrive%20-%20campus%20de%20helix%20Maasmechelen/Documenten/Nieuwe%20map/foto's/lavender_tea.jpg" alt="Lavender Product">
+          <p class="price">€6.00</p>
+        </div>
+
+        <div class="product" onclick="showProductDetails('lavender')">
+          <img class= "product_image" src="file:///C:/Users/moesen.len/OneDrive%20-%20campus%20de%20helix%20Maasmechelen/Documenten/Nieuwe%20map/foto's/lavender_tea.jpg" alt="Lavender Product">
+          <p class="price">€6.00</p>
+        </div>
+
+        <div class="product" onclick="showProductDetails('lavender')">
+          <img class= "product_image" src="file:///C:/Users/moesen.len/OneDrive%20-%20campus%20de%20helix%20Maasmechelen/Documenten/Nieuwe%20map/foto's/lavender_tea.jpg" alt="Lavender Product">
+          <p class="price">€6.00</p>
+        </div>
+
+        <div class="product" onclick="showProductDetails('lavender')">
+          <img class= "product_image" src="file:///C:/Users/moesen.len/OneDrive%20-%20campus%20de%20helix%20Maasmechelen/Documenten/Nieuwe%20map/foto's/lavender_tea.jpg" alt="Lavender Product">
+          <p class="price">€6.00</p>
+        </div>
+
+        <div class="product" onclick="showProductDetails('lavender')">
+          <img class= "product_image" src="file:///C:/Users/moesen.len/OneDrive%20-%20campus%20de%20helix%20Maasmechelen/Documenten/Nieuwe%20map/foto's/lavender_tea.jpg" alt="Lavender Product">
+          <p class="price">€6.00</p>
+        </div>
+
+        <div class="product" onclick="showProductDetails('lavender')">
+          <img class= "product_image" src="file:///C:/Users/moesen.len/OneDrive%20-%20campus%20de%20helix%20Maasmechelen/Documenten/Nieuwe%20map/foto's/lavender_tea.jpg" alt="Lavender Product">
+          <p class="price">€6.00</p>
+        </div>
+
+        <div class="product" onclick="showProductDetails('lavender')">
+          <img class= "product_image" src="file:///C:/Users/moesen.len/OneDrive%20-%20campus%20de%20helix%20Maasmechelen/Documenten/Nieuwe%20map/foto's/lavender_tea.jpg" alt="Lavender Product">
+          <p class="price">€6.00</p>
+        </div>
+
+      </div>
+    </div>
+      
+    </div>
+  </div>
+  
+  <div id="details-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Product Details</h2>
+      <div id="product-details">
+        <!-- Product details will be dynamically loaded here -->
+      </div>
+      <button id="checkout-btn">Checkout</button>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
+
+  
